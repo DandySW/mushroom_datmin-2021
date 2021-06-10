@@ -3,7 +3,7 @@
 /* Variables */
 /* Styles */
 body {
-  background: #86bb89;
+  background: #e75874;
   font-family: "Oswald", sans-serif;
 }
 body .title {
@@ -29,7 +29,7 @@ body .title h2 {
 body .wrapper {
   width: 400px;
   margin: 0 auto;
-  background: white;
+  background: #ffffff;
   border-radius: 4px;
   position: relative;
   box-shadow: 0px 2px rgba(0, 0, 0, 0.12);
@@ -37,7 +37,7 @@ body .wrapper {
 body .wrapper label {
   display: block;
   position: relative;
-  color: #b5abab;
+  color: #322514;
   overflow: hidden;
   cursor: pointer;
   height: 56px;
@@ -65,8 +65,8 @@ body .wrapper li a:hover {
   background-color: rgba(0, 0, 0, 0.06);
 }
 body .wrapper label:hover {
-  background: rgba(203, 228, 205, 0.6) !important;
-  color: #4f7351;
+  background: #fbcbc9 !important;
+  color: #be1558;
   text-indent: 30px;
   transition: text-indent 0.2s;
 }
@@ -79,11 +79,11 @@ body .wrapper span {
   width: 0px;
   display: block;
   top: 58px;
-  background: #38b087;
+  background: #be1558;
 }
 body .wrapper .content {
   height: 0;
-  background: rgba(92, 127, 94, 0.72);
+  background: #be1558;
   height: 300px;
   position: relative;
   border-top: 2px solid rgba(0, 0, 0, 0.12);
@@ -115,8 +115,8 @@ body .wrapper input[type="checkbox"]:checked + label > .lil_arrow {
 }
 body .wrapper input[type="checkbox"]:checked + label {
   display: block;
-  background: rgba(203, 228, 205, 0.6) !important;
-  color: #4f7351;
+  background: #fbcbc9 !important;
+  color: #be1558;
   text-indent: 30px;
   height: 225px;
   transition: height 0.8s;
