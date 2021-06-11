@@ -7,7 +7,7 @@ body {
   font-family: "Oswald", sans-serif;
 }
 body .title {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
   text-align: center;
 }
@@ -23,8 +23,8 @@ body .title h1 {
   margin-top: 40px;
 }
 body .title h2 {
-  font-size: 15px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 body .wrapper {
   width: 400px;
@@ -136,4 +136,10 @@ body .wrapper input[type="checkbox"]:not(:checked) + label {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.table-borderless {
+  color: white;
+  margin: 0 auto;
+  margin-top: 10px;
 }
