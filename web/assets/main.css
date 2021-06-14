@@ -84,7 +84,7 @@ body .wrapper span {
 body .wrapper .content {
   height: 0;
   background: #be1558;
-  height: 300px;
+  height: auto;
   position: relative;
   border-top: 2px solid rgba(0, 0, 0, 0.12);
   top: 4px;
@@ -118,7 +118,16 @@ body .wrapper input[type="checkbox"]:checked + label {
   background: #fbcbc9 !important;
   color: #be1558;
   text-indent: 30px;
-  height: 225px;
+  height: auto;
+  transition: height 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+body .wrapper input[type="checkbox"]:checked + label {
+  display: block;
+  background: #fbcbc9 !important;
+  color: #be1558;
+  text-indent: 30px;
+  height: auto;
   transition: height 0.8s;
   -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -143,3 +152,33 @@ body .wrapper input[type="checkbox"]:not(:checked) + label {
   margin: 0 auto;
   margin-top: 10px;
 }
+
+.attribute1-click,
+.attribute2-click,
+.attribute3-click,
+.attribute4-click,
+.attribute5-click,
+.attribute6-click,
+.attribute7-click,
+.attribute8-click,
+.attribute9-click,
+.attribute10-click,
+.attribute11-click,
+.attribute12-click,
+.attribute13-click,
+.attribute14-click,
+.attribute15-click,
+.attribute16-click,
+.attribute17-click,
+.attribute18-click,
+.attribute19-click,
+.attribute20-click,
+.attribute21-click,
+.attribute22-click {
+  background: #911345;
+}
+
+/* .attribute3-unclick {
+  background: #911345;
+  height: 0 auto;
+} */
